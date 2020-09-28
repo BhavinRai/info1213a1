@@ -1,0 +1,150 @@
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  max-width: 10%;
+  max-height: 10%;
+  font-family: Arial;
+}
+.centerttext {
+  text-align: center;
+  font-family: Arial;
+}
+/*Sidebar picture */
+#bhavinimg {
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 50%;
+  margin-right: 40px;
+  position: fixed;
+  margin-top: -200px;
+  margin-left: -20px;
+  border: 5px solid #555;
+}
+
+h5 {
+  text-align: center;
+  font-family: Arial;
+}
+
+
+
+/*Resume.html for dates */
+#facebook {
+  position: absolute;
+  top: 550px;
+  left: 800px;
+}
+#Microsoft {
+  position: absolute;
+  top: 670px;
+  left: 800px;
+}
+#IBM {
+  position: absolute;
+  top: 790px;
+  left: 800px;
+}
+/*Text positioning for Qualifications*/
+#Qualifications{
+  position: absolute;
+  top: 460px;
+  left: 750px;
+  font-family: Arial;
+}
+/*Text positioning for Skills*/
+#Skills {
+  position: absolute;
+  top: 120px;
+  left: 780px;
+  font-family: Arial;
+}
+/*Text positioning for Experiences*/
+#Experiences{
+  position: absolute;
+  top: 430px;
+  left: 1480px;
+  font-family: Arial;
+}
+/*Img size and position for Skills, Qualifications, Experiences */
+.imgsizeandpositionskills{
+  width: 250px;
+  height: 250px;
+  margin-left: 90px;
+  margin-top: 40px;
+  position: fixed;
+}
+#textskills {
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 500px;
+  display: block;
+}
+
+.imgsizeandpositionQualifications{
+  width: 250px;
+  height: 250px;
+  margin-left: 90px;
+  position: fixed;
+  margin-top: 400px;
+}
+#textQualifications {
+  position: fixed;
+  margin-top: 400px;
+  margin-left: 400px;
+  width: 500px;
+  display: block;
+}
+.imgsizeandpositionExperiences{
+  width: 250px;
+  height: 250px;
+  margin-left: 1250px;
+  position: fixed;
+  margin-top: 40px;
+}
+#textExperiences {
+  position: fixed;
+  margin-top: 370px;
+  margin-left: 1120px;
+  width: 500px;
+  display: block;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 140px; /* Set the width of the sidebar */
+  position: fixed; /* Stay in place*/
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay on top */
+  left: 0;
+  background-color: #bd5d38;
+  padding: 350px 20px 6px 26px;
+}
+
+/* Links color size and spacing */
+.sidenav a {
+  padding: 10px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #e5e5e5;
+  display: block;
+  font-family: sans-serif;
+  letter-spacing: -1px;
+  margin-left: 15px;
+}
+
+/* When you hover over the text it changes the color*/
+.sidenav a:hover {
+  color: #fff;
+}
+
+/* Main content */
+.main {
+  margin-left: 182px;
+}
